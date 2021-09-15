@@ -1,5 +1,5 @@
 # minitalk
-Data exchange program using UNIX signals
+Data exchange program using UNIX signals.
 
 ## 🗂 Table of Contents
 * [About](#-about)
@@ -27,13 +27,19 @@ This is going to generate two executables `server` and `client`.
 ## 🎈 How to Use
 Run the `server`, you will see the process identifier (`pid`) displayed on the terminal.
 ```
-./server
+$ ./server
 ```
+![image](https://user-images.githubusercontent.com/31427890/133354182-fd8a5091-4cac-4f90-b449-7256442fc361.png)
+
 In another terminal, run the `client` passing the server's pid and a text.
 ```
-./client <pid> "hello world"
+$ ./client <server_pid> "hello world"
 ```
+![image](https://user-images.githubusercontent.com/31427890/133354304-344b8872-854a-4546-bc48-4f1657701cbe.png)
+
 You should be able to see the exact same text displayed on the server's terminal.
+![image](https://user-images.githubusercontent.com/31427890/133354408-b54f9284-0dd8-44cc-8146-c647ca373496.png)
+
 
 ## 🏫 42 École | 42 São Paulo
 42 École is a network of tech schools spread around the world where anyone can learn how to code for free.\
