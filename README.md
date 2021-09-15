@@ -29,16 +29,16 @@ Run the `server`, you will see the process identifier (`pid`) displayed on the t
 ```
 $ ./server
 ```
-![image](https://user-images.githubusercontent.com/31427890/133354182-fd8a5091-4cac-4f90-b449-7256442fc361.png)
+![image](https://user-images.githubusercontent.com/31427890/133507418-d76eb478-ace0-402c-a6e1-0c65c53201fb.png)
 
 In another terminal, run the `client` passing the server's pid and a text.
 ```
-$ ./client <server_pid> "hello world"
+$ ./client <server_pid> "Hello World"
 ```
-![image](https://user-images.githubusercontent.com/31427890/133354304-344b8872-854a-4546-bc48-4f1657701cbe.png)
+![image](https://user-images.githubusercontent.com/31427890/133507572-809bcf57-5c5b-476a-ba4b-ac2a6e512005.png)
 
 You should be able to see the exact same text sent from the client's terminal displayed on the server's terminal.
-![image](https://user-images.githubusercontent.com/31427890/133354408-b54f9284-0dd8-44cc-8146-c647ca373496.png)
+![image](https://user-images.githubusercontent.com/31427890/133507661-8fa4e101-7352-489f-ab3d-f8c761d293d3.png)
 
 
 ## 🏫 42 École | 42 São Paulo
