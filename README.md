@@ -37,7 +37,7 @@ $ ./client <server_pid> "hello world"
 ```
 ![image](https://user-images.githubusercontent.com/31427890/133354304-344b8872-854a-4546-bc48-4f1657701cbe.png)
 
-You should be able to see the exact same text displayed on the server's terminal.
+You should be able to see the exact same text sent from the client's terminal displayed on the server's terminal.
 ![image](https://user-images.githubusercontent.com/31427890/133354408-b54f9284-0dd8-44cc-8146-c647ca373496.png)
 
 
